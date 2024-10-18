@@ -1,0 +1,76 @@
+body{
+    background-color:rgb(220, 221, 222);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.conteiner1{
+    font-family: Arial, sans-serif;
+    background-color: rgba(252, 251, 251, 0.575);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 22px 5px rgba(130, 128, 128, 0.248);
+}
+.boxes{
+    display: flex;
+    flex-direction: row;
+}
+.box {
+    background-color: rgb(253, 254, 254);
+    padding: 15px;
+    border-radius: 10px;
+    margin:35px;
+    width: 230px;
+    height: 300px;
+}
+.photo1 {
+    height: 170px;
+    width: 230px;
+    border-radius: 10px;
+}
+.photo3{
+    padding-top: 10px;
+    height: 90px;
+    width: 75px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+.pp{
+    border-radius: 40px;
+}
+.image {
+    width: 25px;
+    height: 25px;
+}
+.text{
+   position: relative;
+    bottom: 40px;
+    left: 195px;
+}
+.conteiner{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    font-weight: bold;
+}
+.bot{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    gap:10px;
+}
+.bot button{
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(253, 254, 254);
+    height: 28px;
+}
+.number{
+    position: relative;
+    bottom: 40px;
+    left:217px;
+    margin-top: -40px;
+}
+  
